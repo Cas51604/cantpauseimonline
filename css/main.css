@@ -1,0 +1,76 @@
+body{
+    background: #73011c; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #73011c 0%, #610117 30%, #610117 54%, #610117 76%, #4a0011 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #73011c 0%,#610117 30%,#610117 54%,#610117 76%,#4a0011 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #73011c 0%,#610117 30%,#610117 54%,#610117 76%,#4a0011 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73011c', endColorstr='#4a0011',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.jumbotron{
+    background-color: #555;
+    margin: 0%;
+    padding: inherit;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.borders{
+    background-color: #222;
+    border: 3px solid #555;
+    color: silver;
+    padding: 25;
+    padding-top: 1;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+footer{
+    background-color: #222;
+    text-align: center;
+    color: silver;
+    padding: 10;
+    background-repeat: repeat
+    background-attachment: scroll;
+    background-position: 0% 0%;
+}
+
+.logged{
+    color: silver;
+    text-align: center;
+    font-size: 24px;
+    padding: 0;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.signuperror{
+    color: darkred;
+    text-align: center;
+    font-size: 24px;
+    margin: auto;
+}
+
+.signupsuccess{
+    color: green;
+    text-align: center;
+    font-size: 24px;
+    margin: auto;
+}
+
+.notice{
+    width: 25%;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
