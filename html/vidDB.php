@@ -38,7 +38,7 @@ include_once 'sheader.php';
 	{
 		include 'src/class.igdb.php';
 
-		$IGDB = new IGDB('cc0f8341940aaaa7aee9dc4d1b79aad2');
+		$IGDB = new IGDB('key');
 		$options = array(
 			'search' => $_POST['search'],
 			'fields' => array('name', 'cover.image_id')
