@@ -1,0 +1,50 @@
+h1{
+    color: #888;
+}
+
+.whitespace{
+    white-space: normal;
+}
+
+.center{
+    text-align: center;
+}
+
+.btn{
+    border: 1px solid #73011c;
+    
+}
+
+.btn1{
+    background-color: #222;
+    color: white;
+}
+
+.btn2{
+    background-color: #555;
+}
+
+.btn1:hover{
+    color: white;
+    background-color: #222;
+    border: 1px solid #73011c;
+}
+
+.panel > .panel-heading{
+    background-image: none;
+    background-color: #555;
+    border: 1px solid #73011c;
+    color: #222;
+}
+
+.threadlink > a{
+    color: white;
+}
+
+.threadlink > a:hover{
+    background-image: none;
+    text-decoration: none;
+    background-color: #222;
+    color: white;
+    border: 1px solid #73011c;
+}

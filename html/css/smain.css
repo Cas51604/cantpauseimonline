@@ -1,0 +1,170 @@
+body{
+    background: #73011c; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #73011c 0%, #610117 30%, #610117 54%, #610117 76%, #4a0011 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #73011c 0%,#610117 30%,#610117 54%,#610117 76%,#4a0011 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #73011c 0%,#610117 30%,#610117 54%,#610117 76%,#4a0011 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#73011c', endColorstr='#4a0011',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.jumbotron{
+    background-color: #555;
+    margin: 0%;
+    padding: inherit;
+}
+
+.container{
+    background-color: #222;
+    margin-bottom: 15;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+label{
+    text-align: right;
+}
+
+button{
+    background-color: silver;
+    color: black;
+}
+
+.left{
+    margin-left: 1;
+    width: 100%;
+    
+}
+.borders{
+    background-color: #222;
+    border: 3px solid #555;
+    color: silver;
+    padding: 25;
+    padding-top: 1;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+footer{
+    background-color: #222;
+    text-align: center;
+    color: silver;
+    padding: 10;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+}
+
+.signuperror{
+    color: darkred;
+    text-align: center;
+    font-size: 24px;
+    margin: auto;
+}
+
+.signupsuccess{
+    color: green;
+    text-align: center;
+    font-size: 24px;
+    margin: auto;
+}
+
+.sil{
+	color: silver;
+}
+
+.btn{
+    background-color: silver;
+    color: black;
+}
+
+.btnspace{
+    margin-top: 15%;
+}
+
+.center{
+    text-align: center;
+}
+
+#space{
+    display: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.bar input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  color: black;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.bar button {
+  float: left;
+  width: 20%;
+  padding: 13.5px;
+  background: #73011c;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.bar button:hover {
+  background: #555;
+}
+
+/* Clear floats */
+form.bar::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.centered{
+    padding-left: 50;
+    background-color: transparent;
+}
+
+.trans{
+    background-color: transparent;
+}
+
+.size{
+    width: 328px;
+    height: 328px;
+}
+
+.size2{
+    width: 180px;
+    height: 85px;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 10px;
+}

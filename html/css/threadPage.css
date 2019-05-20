@@ -1,0 +1,15 @@
+button.btn3{
+	background-color: #555;
+	color: white;
+	border: 1px solid #73011c;
+	margin-left: 30;
+}
+
+button.btn3:hover{
+	background-color: #222;
+	border: 1px solid #73011c;
+}
+
+.btnreply{
+	margin-top: 20px;
+}

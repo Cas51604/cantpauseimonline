@@ -1,0 +1,96 @@
+body{
+  margin-top: auto;
+}
+
+h1{
+    color: black;
+}
+
+p{
+    color: silver;
+}
+
+label{
+    color: silver;
+}
+
+.border{
+    border-bottom:1px solid ;
+    margin-bottom:10px;
+    color: darkred;
+}
+
+.main-secction{
+    background-color: #222;
+    padding: 25;
+}
+
+.image-section{
+    padding: 0px;
+}
+
+.image-section img{
+    width: 100%;
+    height: 300px;
+    margin-top: -15px;
+    position: relative;
+}
+
+.user-left-part{
+    margin: 0px;
+}
+
+.user-image img{
+    margin-top: 10px;
+}
+
+.user-profil-part{
+    padding-bottom:0px;
+    background-color:#FAFAFA;
+}
+
+.follow{    
+    margin-top:10px;   
+}
+
+.user-detail-row{
+    margin:0px;
+}
+
+.user-detail-section2{
+    margin-top:10px;
+}
+
+.profile-right-section{
+    padding: 20px 0px 10px 15px;
+    background-color: #222;  
+}
+
+.profile-right-section-row{
+    margin: 0px;
+}
+
+.profile-header-section1 h1{
+    font-size: 20px;
+}
+
+.nav-link{
+    font-size: 1.2em;
+}
+
+.nav-item{
+ border: 1px solid silver;
+}
+.btn1{
+    background-color: darkred;
+    color: silver;
+}
+
+.btn2{
+    background-color: #222;
+    color: silver;
+}
+
+.sectcolor{
+    background-color: #555;
+}
